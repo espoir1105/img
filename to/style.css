@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+body {
+  height: 100vh;
+  background-color: lightblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 50%;
+  height: calc(100vh-100px);
+  background-color: #fff;
+  background-image: url(../img/home_blanc-9-3.JPG);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/* section {
+ /* margin: 2rem 0px; } */
+
+.tabs {
+  display: flex;
+
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.tabs li {
+  padding: 1rem;
+  cursor: pointer;
+}
+.on {
+  color: orange;
+  font-weight: bold;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.task-done {
+  color: rgb(27, 136, 17);
+  text-decoration: line-through;
+}
+
