@@ -22,8 +22,9 @@ body {
   background-position: bottom;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-/* section {
- /* margin: 2rem 0px; } */
+section {
+  margin: 2rem 0px;
+}
 
 .tabs {
   display: flex;
@@ -48,4 +49,3 @@ body {
   color: rgb(27, 136, 17);
   text-decoration: line-through;
 }
-
